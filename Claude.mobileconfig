@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.anthropic.claudefordesktop</string>
+				<key>PayloadIdentifier</key>
+				<string>com.anthropic.claudefordesktop.settings</string>
+				<key>PayloadUUID</key>
+				<string>95620BD1-F8DE-4B0B-A5BE-5FB1B49A382F</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadDisplayName</key>
+				<string>Claude Desktop</string>
+				<key>inferenceGatewayBaseUrl</key>
+				<string>http://127.0.0.1:8082</string>
+				<key>inferenceGatewayApiKey</key>
+				<string>fcc-local-free</string>
+				<key>chatTabEnabled</key>
+				<true/>
+				<key>modelDiscoveryEnabled</key>
+				<false/>
+				<key>modelPrefer1mContext</key>
+				<true/>
+				<key>inferenceModels</key>
+				<string>[{"name":"claude-fcc/6f70656e5f726f757465722f616e7468726f7069632f636c617564652d736f6e6e65742d352e35","labelOverride":"👑 [TOP-TIER] Claude Sonnet 5.5"},{"name":"claude-fcc/6f70656e5f726f757465722f616e7468726f7069632f636c617564652d6f7075732d352e35","labelOverride":"👑 [TOP-TIER] Claude Opus 5.5"},{"name":"claude-fcc/6f70656e5f726f757465722f6f70656e61692f6770742d352e362d736f6c","labelOverride":"👑 [TOP-TIER] GPT 5.6 Sol"},{"name":"claude-fcc/6f70656e5f726f757465722f782d61692f67726f6b2d342e37","labelOverride":"👑 [TOP-TIER] Grok 4.7 Reasoning"},{"name":"claude-fcc/6f70656e5f726f757465722f782d61692f67726f6b2d342e36","labelOverride":"👑 [TOP-TIER] Grok 4.6 Reasoning"},{"name":"claude-fcc/6d69737472616c2f636f6465737472616c2d6c6174657374","labelOverride":"🎯 [CODING] Mistral Codestral (Specialist 256k)"},{"name":"claude-fcc/6f70656e5f726f757465722f646565707365656b2f646565707365656b2d72312d30353238","labelOverride":"🎯 [CODING] DeepSeek R1 (Full Reasoning)"},{"name":"claude-fcc/6f70656e5f726f757465722f646565707365656b2f646565707365656b2d636861742d76332e31","labelOverride":"🎯 [CODING] DeepSeek V3.1 (Fast Coding)"},{"name":"claude-fcc/6f70656e5f726f757465722f616e7468726f7069632f636c617564652d332e352d736f6e6e6574","labelOverride":"🎯 [CODING] Claude 3.5 Sonnet (Pro Coding)"},{"name":"claude-fcc/6d69737472616c2f6d69737472616c2d6c617267652d6c6174657374","labelOverride":"🎯 [CODING] Mistral Large (Flagship)"},{"name":"claude-fcc/67656d696e692f6d6f64656c732f67656d696e692d332e382d666c617368","labelOverride":"💬 [CHAT] Gemini 3.8 Flash (Active 1M)"},{"name":"claude-fcc/67656d696e692f6d6f64656c732f67656d696e692d322e352d70726f","labelOverride":"💬 [CHAT] Gemini 2.5 Pro (Deep 1M)"},{"name":"claude-fcc/67656d696e692f6d6f64656c732f67656d696e692d322e352d666c617368","labelOverride":"💬 [CHAT] Gemini 2.5 Flash (Speed 1M)"},{"name":"claude-fcc/67656d696e692f6d6f64656c732f67656d696e692d322e302d666c617368","labelOverride":"💬 [CHAT] Gemini 2.0 Flash (Versatile)"},{"name":"claude-fcc/6f70656e61695f6170692f6770742d346f","labelOverride":"💬 [CHAT] GPT-4o (OpenAI Flagship)"},{"name":"claude-fcc/6f70656e61695f6170692f6f332d6d696e69","labelOverride":"💬 [CHAT] o3-mini (High Reasoning)"},{"name":"claude-fcc/63657265627261732f7a61692d676c6d2d342e37","labelOverride":"🚀 [ULTRA-SPEED] ZAI GLM 4.7 (Cerebras 1500+ t/s)"},{"name":"claude-fcc/67726f712f6f70656e61692f6770742d6f73732d31323062","labelOverride":"🚀 [ULTRA-SPEED] GPT-OSS 120B (Groq 500+ t/s)"},{"name":"claude-fcc/67726f712f6c6c616d612d332e332d3730622d766572736174696c65","labelOverride":"🚀 [ULTRA-SPEED] LLaMA 3.3 70B (Groq Fast)"},{"name":"claude-3-fcc/67656d696e692f6d6f64656c732f67656d696e692d322e352d70726f","labelOverride":"🖼️ [VISION &amp; VIDEO] Gemini 2.5 Pro (Video &amp; 2M Doc Master)"},{"name":"claude-3-fcc/6f70656e61695f6170692f6770742d346f","labelOverride":"🖼️ [VISION &amp; VIDEO] GPT-4o (Vision &amp; Diagram Specialist)"},{"name":"claude-fcc/6f70656e5f726f757465722f7177656e2f7177656e332d766c2d3330622d6133622d696e737472756374","labelOverride":"🖼️ [VISION &amp; VIDEO] Qwen 3 VL (Open Vision-Language)"},{"name":"claude-fcc/6f6c6c616d612f67656d6d61333a3462","labelOverride":"📜 [CLASSIC LLM] Google Gemma 3 4B (Compact Classic)"},{"name":"claude-fcc/67726f712f6c6c616d612d332e312d38622d696e7374616e74","labelOverride":"📜 [CLASSIC LLM] Meta LLaMA 3.1 8B (Meta Classic)"},{"name":"claude-fcc/6f6c6c616d612f7177656e322e352d636f6465723a37622d62617365","labelOverride":"📜 [CLASSIC LLM] Qwen 2.5 Base (Foundation Base)"},{"name":"claude-fcc/6e76696469615f6e696d2f6e76696469612f6e656d6f74726f6e2d332d73757065722d313230622d61313262","labelOverride":"🏢 [ENTERPRISE] Nemotron 120B Super (NVIDIA NIM)"},{"name":"claude-fcc/6e76696469615f6e696d2f646565707365656b2d61692f646565707365656b2d76342e312d666c617368","labelOverride":"🏢 [ENTERPRISE] DeepSeek V4.1 Flash (NVIDIA NIM)"},{"name":"claude-fcc/73616d62616e6f76612f446565705365656b2d56332e32","labelOverride":"🏢 [ENTERPRISE] DeepSeek V3.2 (SambaNova)"},{"name":"claude-fcc/6f6c6c616d612f7177656e322e352d636f6465723a313462","labelOverride":"💻 [OFFLINE] Qwen 2.5 Coder 14B (Mac Local GPU)"},{"name":"claude-fcc/6f6c6c616d612f7177656e322e352d636f6465723a3762","labelOverride":"💻 [OFFLINE] Qwen 2.5 Coder 7B (Mac Local GPU)"}]</string>
+				<key>defaultModelEffort</key>
+				<string>max</string>
+				<key>inferenceModelPricingEnabled</key>
+				<true/>
+				<key>inferenceProvider</key>
+				<string>gateway</string>
+				<key>inferenceCredentialKind</key>
+				<string>static</string>
+			</dict>
+		</array>
+		<key>PayloadDisplayName</key>
+		<string>Claude Desktop Third-Party Inference</string>
+		<key>PayloadIdentifier</key>
+		<string>com.anthropic.claudefordesktop.profile</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>96390923-76F7-4936-B9F6-06A0DC2E224D</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadScope</key>
+		<string>User</string>
+	</dict>
+</plist>

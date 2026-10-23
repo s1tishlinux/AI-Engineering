@@ -1,0 +1,32 @@
+# Ignore configuration files
+Claude.mobileconfig
+
+# Ignore environment directories
+langchain-env/
+
+# Ignore large media files or directories
+Visual_Learning_Material_TE/
+
+# Ignore any other files or directories that contain sensitive information or are not necessary for version control
+*.env
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore Python cache and bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore node_modules directory
+node_modules/
